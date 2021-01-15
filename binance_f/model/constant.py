@@ -17,6 +17,13 @@ class CandlestickInterval:
     INVALID = None
 
 
+class ContractType:
+    PERPETUAL = 'PERPETUAL'
+    CURRENT_MONTH = 'CURRENT_MONTH'
+    NEXT_MONTH = 'NEXT_MONTH'
+    INVALID = None
+
+
 class OrderSide:
     BUY = "BUY"
     SELL = "SELL"
